@@ -1,0 +1,28 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient( to right, rgba(65, 65, 65, 0.704) 0%, rgb(65, 65, 65, 0.704) 50%,
+     rgba(0, 255, 106, 0.709) 50%, rgb(0, 255, 106, 0.709) 100%) ;
+}
+
+body img {
+    padding-top: 150px;
+    margin-left: 170px;
+    text-align: center;
+}
+
+.User {
+    float: right;
+    padding-right: 180px;
+    margin-top: 150px;
+    font-size: 60px;
+    font-family: 'Creepster', cursive; 
+    /* color: white; */
+}
